@@ -5,12 +5,12 @@ import "swiper/css/navigation";
 import { Pagination, Navigation, Autoplay } from "swiper/modules";
 
 const movies = [
-    { id: 1, title: "Movie 1", image: "../../public/image/10.png" },
-    { id: 2, title: "Movie 2", image: "../../public/image/15.png" },
-    { id: 3, title: "Movie 3", image: "../../public/image/20.png" },
-    { id: 4, title: "Movie 4", image: "../../public/image/28.png" },
-    { id: 5, title: "Movie 5", image: "../../public/image/36.png" },
-    { id: 6, title: "Movie 6", image: "../../public/image/1.png" },
+    { id: 1, title: "Movie 1", image: "/image/10.png" },
+    { id: 2, title: "Movie 2", image: "/image/15.png" },
+    { id: 3, title: "Movie 3", image: "/image/20.png" },
+    { id: 4, title: "Movie 4", image: "/image/28.png" },
+    { id: 5, title: "Movie 5", image: "/image/36.png" },
+    { id: 6, title: "Movie 6", image: "/image/1.png" },
 ];
 
 const MovieList5 = () => {
